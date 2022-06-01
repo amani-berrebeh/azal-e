@@ -7,12 +7,12 @@
   }
   
   .services-submenu li {
-    background:#f5c6c6;
+    background:#fAFAFB;
     cursor:all-scroll;
   }
   
   .services-submenu li a:hover {
-    background:#f7b6b6;
+    background:#fAFAFB;
   }
   
   .services-submenu.clicked {

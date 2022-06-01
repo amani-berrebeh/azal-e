@@ -7,7 +7,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home,
+/* .home,
 .consulting,
 .contactus,
 .design,
@@ -25,5 +25,17 @@
   background-repeat: none;
   background-size: cover;
   text-shadow: 4px 4px 4px #fff;
-}
+} */
 
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:baseline;
+  height: 50vh;
+  font-size: 2rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+}

@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Demande de devie",
+      title: "Demande de devis",
       path: "./contactus",
       cName: "nav-item",
     },

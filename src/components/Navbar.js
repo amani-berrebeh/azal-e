@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-         <img src="azalee.png" alt="logo" className="logo"/>
+         <img src="azalea.png" alt="logo" className="logo"/>
          
         </Link>
         <ul className="nav-items">
