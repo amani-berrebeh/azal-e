@@ -3,6 +3,7 @@ import "./home.css";
 import { Link } from "react-router-dom";
 import Gallery from './home/Gallery';
 
+
 function Home() {
   return (
     <div className="mother">
@@ -66,18 +67,23 @@ function Home() {
           <span></span>
           <span></span>
           <span></span>
-          <p> DEMANDER UN DEVIS </p>
+          <p> DEMANDER VOTRE DEVIS </p>
         </div>
       </div>
       {/* en image  */}
       <div className="Images">
         <h1> En images</h1>
         <p>
-          Profitez d’un event planner dédié ! Quel événement sur mesure
-          souhaitez-vous décorer et organiser ?
+          Profitez d’un event planner dédié ! 
+          <br/>
+          Quel événement sur mesure souhaitez-vous décorer et organiser ?
         </p>
+        
+      </div>
+      <div> 
         <Gallery/>
       </div>
+     
     </div>
   );
 }
