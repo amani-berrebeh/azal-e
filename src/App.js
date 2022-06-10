@@ -4,7 +4,7 @@ import "./App.css";
 import {  Route, BrowserRouter, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Fiançailles from "./pages/Fiançailles";
+import Fiancailles from "./pages/Fiancailles";
 import Contactus from "./pages/Contactus";
 import Anniversaire from "./pages/Anniversaire";
 import Autres from "./pages/Autres";
@@ -12,12 +12,15 @@ import Mariage from "./pages/Mariage";
 import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Signup from "./pages/Signup";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     
+    
       <BrowserRouter>
-        <Navbar />
+      <Navbar />
+        
         <Routes>
           <Route path="/" exact element={<Home/>}></Route>
           <Route path="/contactus" element={<Contactus/>}></Route>
@@ -27,9 +30,14 @@ function App() {
           <Route path="/mariage" element={<Mariage/>}></Route>
           <Route path="/autres" element={<Autres/>}></Route>
           <Route path="/anniversaire" element={<Anniversaire/>}></Route>
-          <Route path="/fiançailles" element={<Fiançailles/>}></Route>
+          <Route path="/fiançailles" element={<Fiancailles/>}></Route>
         </Routes>
+        <div> 
+        <Footer/>
+        </div>
+        
       </BrowserRouter>
+      
     
   );
 }

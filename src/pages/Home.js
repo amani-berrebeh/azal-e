@@ -61,6 +61,7 @@ function Home() {
       </div>
 
       {/* bouton de devis  */}
+      <Link to="contactus">
       <div className="bouton">
         <div className="text">
           <span></span>
@@ -70,6 +71,8 @@ function Home() {
           <p> DEMANDER VOTRE DEVIS </p>
         </div>
       </div>
+      </Link>
+      
       {/* en image  */}
       <div className="Images">
         <h1> En images</h1>

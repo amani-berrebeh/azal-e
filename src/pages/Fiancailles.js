@@ -1,9 +1,10 @@
 import React from "react";
-
-function Design() {
+// import "./Fiancailles.css";
+function Consulting() {
   return (
     <div>
-       <div className="box1">
+      <h1>HELLO</h1>
+      {/* <div className="box1">
 <h1> La magie d’un anniversaire</h1>
       </div>
       <div className="mariage1">
@@ -28,7 +29,7 @@ C’est l’anniversaire de votre p’tit bout ? Vous avez envie de lui faire pl
           </p>
         </div>
         <div className="image1">
-          <img src="img11.jpg" alt="mariage" />
+          <img src="img5.jpg" alt="mariage" />
         </div>
       </div>
       <div className="boxdevis">
@@ -43,13 +44,13 @@ C’est l’anniversaire de votre p’tit bout ? Vous avez envie de lui faire pl
               <span></span>
               <span></span>
               <span></span>
-              <p> CONTACTEZ NOUS </p>
+              <p> JE DEMANDE UN DEVIS </p>
             </div>
           </div>
         
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export default Design;
+export default Consulting;
